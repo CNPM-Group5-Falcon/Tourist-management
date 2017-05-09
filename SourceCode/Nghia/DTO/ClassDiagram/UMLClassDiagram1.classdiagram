@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="257bb6cb-00f5-4096-8215-e4f507a4bd26" name="UMLClassDiagram1" linkedPackageId="6b9af5b3-7e64-4cd0-b15b-0f25f7fb06b4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="1b7668f1-34ba-415c-a1d5-0f5c8d7b8b44">
+      <profileInstance Id="5dcbfb8a-1295-4c6f-8ca7-a90fd6b577f5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c0fbc4f3-1575-45b2-b70d-01d22b7ef7ff">
+      <profileInstance Id="8e3c4279-3256-4468-9f4b-e2f3b3ada479" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1aedf862-23d4-4ca0-a107-3c1f7503cf4d" name="User" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5daebd4f-9fd7-439f-8cc1-4b525ffbc98c" />
+        <ownedAttributesInternal>
+          <property Id="954e22e4-f1f2-424e-aa7a-6b75f66c081e" name="AccountName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e4b5b51-193f-486c-bc4a-9ff312c104b0" />
+          </property>
+          <property Id="62af6103-5b11-4449-bfa7-cef9d80ead10" name="Birthday" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9a8f6a15-179a-4c7f-a020-3e515ca88fe0" />
+          </property>
+          <property Id="6f343af7-c984-4901-9b7c-e9d50a141167" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="47a7f7e2-ee66-4cd9-8a0c-8db920fe1b89" />
+          </property>
+          <property Id="4ff7a7e7-553c-4ef4-ae79-5066c4b1da66" name="FullName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fcd01c7f-17d4-4281-87ed-1f4e68c93ec1" />
+          </property>
+          <property Id="789c9819-760d-4ef6-9f64-70f3835a3595" name="Password" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bf45efcc-152f-4f52-aff6-88fb71edb149" />
+          </property>
+          <property Id="b21ec1a4-a67e-42a2-980a-48a386d955af" name="PhoneNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6670111b-aab2-40b9-9d79-b0ee1f8798e6" />
+          </property>
+          <property Id="3463dc91-6df7-48f6-aeba-cfde71494004" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6867b619-150b-4a18-90af-3ad058111472" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="501dd8a3-46ca-4e9f-9c23-8875137bbef6" name="BookTour" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="71ea455d-e690-4814-8a4e-d626a285735a" />
+          </operation>
+          <operation Id="d1221657-2030-4650-bcd6-d3fe5d2e9461" name="Commend" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="95cba15c-1198-40db-995f-3a72be26e645" />
+          </operation>
+          <operation Id="f22afab9-8750-4d4b-9306-3484f131a3d2" name="DeleteComment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="867fbb00-11bb-498e-b9b6-6498d14fc221" />
+          </operation>
+          <operation Id="3eafb922-e449-4998-8541-cc5e4f008abe" name="LogOut" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4db28d0b-648b-430d-b802-6a4fa8d63351" />
+          </operation>
+          <operation Id="590350e6-f3c6-41d5-a282-fd9cd6b43335" name="Rate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="70381668-0a17-4775-9d63-4787fd3da819" />
+          </operation>
+          <operation Id="626be67b-25ba-4fb7-8c78-69f9b5da35bb" name="Search" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2b52113e-a3bc-45ec-a23a-b6505def0343" />
+          </operation>
+          <operation Id="ca57d3cc-fa58-45dc-99d2-e51c8c0f84b3" name="ViewComment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="496839fe-8aaf-4e76-aa5e-707b2c54a97f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="53007b70-a532-41fb-958d-e9e6e183de2a" name="Manager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c7294289-5819-43eb-a0e4-333895596fc8" />
+        <generalsInternal>
+          <generalization Id="9fc22e35-0cd4-44d7-b673-07623aa88ea2" isSubstitutable="false">
+            <classMoniker Id="1aedf862-23d4-4ca0-a107-3c1f7503cf4d" LastKnownName="User" />
+            <elementDefinition Id="24fdea16-5b60-43b8-98c1-7fc0013c4f69" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="c58176d9-a265-4617-a561-b6039c037d43" name="DaleteComment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1ba5bb9d-7944-4c16-ad67-a2d3c1e37720" />
+          </operation>
+          <operation Id="543629a1-a7d8-4b80-abaf-fc70c1669c20" name="ManageTour" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fa00a346-1b26-4365-acf9-a77833cb6ff7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b351b4f4-6271-456d-984f-839330d8c3c1" name="Administrator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="64bd7d47-157f-460f-91e8-35ff7ba53acb" />
+        <generalsInternal>
+          <generalization Id="75e00adb-6506-4e04-b0b3-e55ef9eee380" isSubstitutable="false">
+            <classMoniker Id="53007b70-a532-41fb-958d-e9e6e183de2a" LastKnownName="Manager" />
+            <elementDefinition Id="86c1dfbd-4280-4f36-85d2-c8a9c1dd9471" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="d75e4ea8-6caa-4808-af55-5e4fa1ed0128" name="ManageTourInfomation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="586af735-06d7-4cb4-b2ba-e64ec78b6cb3" />
+          </operation>
+          <operation Id="231d178b-dd68-46d6-b646-bf78f2b91e54" name="ManageUserAcount" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="732acc1a-d638-4c1b-9218-a7ad34ffad29" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="6b9af5b3-7e64-4cd0-b15b-0f25f7fb06b4" name="ClassDiagram">
+    <elementDefinition Id="29a759dd-48ce-4d31-9411-99bff75de34d" />
+  </package>
+</logicalClassDesignerModel>
