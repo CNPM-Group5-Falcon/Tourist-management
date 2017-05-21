@@ -1,7 +1,0 @@
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\bin\Debug\DataAccessTier.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\bin\Debug\DataAccessTier.pdb
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\obj\Debug\DataAccessTier.csprojResolveAssemblyReference.cache
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\obj\Debug\DataAccessTier.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\obj\Debug\DataAccessTier.pdb
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\bin\Debug\DTO.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DataAccessTier\bin\Debug\DTO.pdb

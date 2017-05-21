@@ -1,9 +1,0 @@
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\bin\Release\BusinessLogicTier.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\bin\Release\BusinessLogicTier.pdb
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\bin\Release\DataAccessTier.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\bin\Release\DTO.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\bin\Release\DataAccessTier.pdb
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\bin\Release\DTO.pdb
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\obj\Release\BusinessLogicTier.csprojResolveAssemblyReference.cache
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\obj\Release\BusinessLogicTier.dll
-C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\BusinessLogicTier\obj\Release\BusinessLogicTier.pdb
