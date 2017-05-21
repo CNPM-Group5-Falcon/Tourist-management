@@ -1,0 +1,4 @@
+C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DTO\bin\Release\DTO.dll
+C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DTO\bin\Release\DTO.pdb
+C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DTO\obj\Release\DTO.dll
+C:\Users\Thanh\documents\visual studio 2015\Projects\WindowsFormsApplication1\DTO\obj\Release\DTO.pdb
